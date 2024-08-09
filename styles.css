@@ -1,0 +1,24 @@
+body {
+    font-family: "Anton SC", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(./imgs/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35vw;
+}
+.right {
+    display: flex;
+    justify-content: center;
+}
+  
