@@ -29,18 +29,19 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 30vh;
+    height: 40vh;
     margin-left: 5%;
     margin-bottom: 5%;
 }
 
 .second {
-    height: 35vh;
+    height: 30vh;
     background-color: white;
 }
 
 .third {
-    height: 35vh;
+    height: 30vh;
+    margin: 50px;
 }
 
 .form-main-div {
@@ -80,4 +81,12 @@ label {
 .btn-green {
     color: white;
     background-color: lightgreen;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+
+.hyperLink {
+    color: black;
 }
