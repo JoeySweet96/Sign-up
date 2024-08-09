@@ -21,16 +21,63 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
+    width: 65vw;
 }
 
 .first {
-    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 30vh;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .second {
-    height: 30vh;
+    height: 35vh;
+    background-color: white;
 }
 
 .third {
-    height: 30vh;
+    height: 35vh;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 10px;
+    color: gray;
+}
+
+.btn-green {
+    color: white;
+    background-color: lightgreen;
 }
